@@ -10,8 +10,8 @@ count_elements = int(input('Enter elements count: '))
 
 def progression(first_element, step_progres, count_elements):
 
-    if count_elements == 1:
-        return first_element
+    # if count_elements == 1:
+    #     return first_element
     
     # elif step_progres == 0:
     #     list_progr = []
@@ -20,7 +20,7 @@ def progression(first_element, step_progres, count_elements):
     #     return list_progr
     #elif step_progres > 0:
     
-    else:
+    #else:
         list_progr = []
         next_element = first_element
         for i in range(count_elements):
